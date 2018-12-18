@@ -14,7 +14,7 @@ client.on('message', msg => {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` Gm 4 EveR `,"http://twitch.tv/S-F")
+client.user.setGame(` The Legends Shop `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -56,9 +56,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『Bot 1 | Gm 4 EveR 』 『اسم البوت』", true)
+      .addField("『Bot 1 | The Legends Shop 』 『اسم البوت』", true)
      
-      .addField("『مصمم البوت Za ||→ CopTan㦵❣#4444』", true)
+      .addField("『مصمم البوت ! ~ CopTan ~ !』", true)
      
       .addField("『!help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
      
@@ -782,7 +782,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!invite') {
-      message.author.send(' رابط البوت |  https://discordapp.com/api/oauth2/authorize?client_id=495865786993475594&permissions=2146958839&scope=bot ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت |   ').catch(e => console.log(e.stack));
  
     }
    }
@@ -1311,7 +1311,7 @@ client.on('message', msg => {
  
 client.on('message', msg => {
   if (msg.content === '!') {
-    msg.reply('Welcome To Gm 4 EveR!');
+    msg.reply('Welcome To The Legends Shop!');
   }
 });
  
